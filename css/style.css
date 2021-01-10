@@ -2,15 +2,82 @@ html {
     font-size: 16px;
 }
 
-nav {
-    display: flex;
+header {
+    display: block;
+    margin-bottom: 100px;
 }
 
-header {
-    background-image: url();
+nav {
+    display: flex;
+    flex-direction: row;
+    flex: 2 2 150px;
+    justify-content: space-between;
+    /* justify-items: stretch; */
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    font-size: 1.75rem;
+    background-color: lightslategrey;
+}
+
+#brand {
+    justify-self: flex-start;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-self: end;
+    justify-content: flex-end;
+    /* justify-content: space-around; */
+}
+
+a:hover{
+    text-decoration: pointer;
+}
+
+#landing {
+    display: inline-block;
+    background-image: url('../assets/dongsh-tpXxjKnl4Ts-unsplash.jpg');
     background-size: cover;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    top: 50px;
+}
+
+#landing img {
+    border-radius: 50%;
+    margin: 20px;
 }
 
 main {
     display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between
+}
+
+main #team {
+    width: 30vw;
+}
+
+@media only screen and (max-width: 800px) {
+    nav {
+        flex-direction: column;
+        align-content: flex-start;
+    } 
+
+    #nav-links {
+        justify-content: space-around;
+    }
+
+    main {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    main #team {
+        width: 100vw;
+    }
 }
