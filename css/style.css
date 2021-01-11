@@ -90,12 +90,12 @@ main {
 main #team {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 5px 20px 5px 30px;
 }
 
 #team img {
-    width: 30vw;
+    max-width: 100%;
 }
 
 main #mission {
