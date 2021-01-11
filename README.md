@@ -1,3 +1,5 @@
 # HTML-CSS-layout-challenge
 
-## made for Marcy Lab School Breakthrough 2021 Pre-Work
+## Made for Marcy Lab School Breakthrough 2021 Pre-Work
+
+Test the flexbox layout on [Codepen](https://codepen.io/weilyl/full/vYXzJgP)!
