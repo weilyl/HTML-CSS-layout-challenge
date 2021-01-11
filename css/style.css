@@ -44,6 +44,10 @@ nav {
     margin: 20px 0 20px 30px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 nav ul {
     display: flex;
     flex-direction: row;
@@ -83,15 +87,15 @@ main {
     display: flex;
     flex-direction: row;
     position: relative;
-    justify-content: space-between;
-    overflow: scroll;
+    justify-content: flex-start;
+    align-content: flex-start;
 }
 
 main #team {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    margin: 5px 20px 5px 30px;
+    justify-content: flex-start;
+    margin: 0 20px 0 30px;
 }
 
 #team img {
